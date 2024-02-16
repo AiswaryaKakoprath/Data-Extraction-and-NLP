@@ -54,17 +54,17 @@ Objective of this document is to explain methodology adopted to perform text ana
 and etc.
 
 ### Table of Contents
-     * [Sentimental Analysis](#Sentimental-Analysis)
+   * [Sentimental Analysis](#Sentimental-Analysis)
        * Cleaning using Stop Words Lists 
        * Creating dictionary of Positive and Negative words 
        * Extracting Derived variables 
-    * [Analysis of Readability](#Analysis-of-Readability)
-    * [Average Number of Words Per Sentence](#Average-Number-of-Words-Per-Sentence)
-    * [Complex Word Count](#Complex-Word-Count)
-    * [Word Count](#Word-Count) 
-    * [Syllable Count Per Word](#Syllable-Count-Per-Word)
-    * [Personal Pronouns](#Personal-Pronouns) 
-    * [Average Word Length](#Average-Word-Length)
+   * [Analysis of Readability](#Analysis-of-Readability)
+   * [Average Number of Words Per Sentence](#Average-Number-of-Words-Per-Sentence)
+   * [Complex Word Count](#Complex-Word-Count)
+   * [Word Count](#Word-Count) 
+   * [Syllable Count Per Word](#Syllable-Count-Per-Word)
+   * [Personal Pronouns](#Personal-Pronouns) 
+   * [Average Word Length](#Average-Word-Length)
   
   * Sentimental Analysis
 Sentimental analysis is the process of determining whether a piece of writing is positive, negative, or neutral. The below Algorithm is designed for use in Financial Texts. It consists

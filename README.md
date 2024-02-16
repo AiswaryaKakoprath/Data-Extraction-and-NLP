@@ -53,7 +53,7 @@ For each of the extracted texts from the article, perform textual analysis and c
 Objective of this document is to explain methodology adopted to perform text analysis to drive sentimental opinion, sentiment scores, readability, passive words, personal pronouns
 and etc.
 
-###Table of Contents
+### Table of Contents
      * [Sentimental Analysis](#Sentimental-Analysis)
        * Cleaning using Stop Words Lists 
        * Creating dictionary of Positive and Negative words 

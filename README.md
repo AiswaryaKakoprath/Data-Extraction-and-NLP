@@ -20,7 +20,7 @@ For each of the articles, given in the input.xlsx file, extract the article text
   
 * Article Text Extraction: It collects the text from all paragraph (<p>) tags using a list comprehension.
   
-*Implementation:
+* Implementation:
   * The main functionality is encapsulated within the main() function, which iterates through the rows of an input DataFrame (input_df).
   * For each URL in the DataFrame, it calls extract_article_text(url) to retrieve the article title and text.
   * If the extraction is successful, it writes the title and text to a text file named after the URL ID.
@@ -34,38 +34,38 @@ For each of the extracted texts from the article, perform textual analysis and c
   * Text analysis is performed on each article using functions like clean_text, calculate_sentiment_scores, and calculate_variables.
   *The results are stored in a Pandas DataFrame (result_df), and the DataFrame is saved to an Excel file (Textual_Analysis_Result.xlsx).
 
-* Variables:
-1. POSITIVE SCORE
-2. NEGATIVE SCORE
-3. POLARITY SCORE
-4. SUBJECTIVITY SCORE
-5. AVG SENTENCE LENGTH
-6. PERCENTAGE OF COMPLEX WORDS
-7. FOG INDEX
-8. AVG NUMBER OF WORDS PER SENTENCE
-9. COMPLEX WORD COUNT
-10. WORD COUNT
-11. SYLLABLE PER WORD
-12. PERSONAL PRONOUNS
-13. AVG WORD LENGTH
+* Variables
+   -POSITIVE SCORE
+   -NEGATIVE SCORE
+   -POLARITY SCORE
+   -SUBJECTIVITY SCORE
+   -AVG SENTENCE LENGTH
+   -PERCENTAGE OF COMPLEX WORDS
+   -FOG INDEX
+   -AVG NUMBER OF WORDS PER SENTENCE
+   -COMPLEX WORD COUNT
+   -WORD COUNT
+   -SYLLABLE PER WORD
+   -PERSONAL PRONOUNS
+   - AVG WORD LENGTH
 
 * Definition of the variables
 Objective of this document is to explain methodology adopted to perform text analysis to
 drive sentimental opinion, sentiment scores, readability, passive words, personal pronouns
 and etc.
 
-Table of Contents
-1 Sentimental Analysis 
- 1.1 Cleaning using Stop Words Lists 
- 1.2 Creating dictionary of Positive and Negative words 
- 1.3 Extracting Derived variables 
-2 Analysis of Readability 
-3 Average Number of Words Per Sentence 
-4 Complex Word Count 
-5 Word Count 
-6 Syllable Count Per Word 
-7 Personal Pronouns 
-8 Average Word Length
+  -Table of Contents
+     -Sentimental Analysis 
+       -Cleaning using Stop Words Lists 
+       -Creating dictionary of Positive and Negative words 
+       -Extracting Derived variables 
+  -Analysis of Readability 
+  -Average Number of Words Per Sentence 
+  -Complex Word Count 
+  -Word Count 
+  -Syllable Count Per Word 
+  -Personal Pronouns 
+  -Average Word Length
   
   1 Sentimental Analysis
 Sentimental analysis is the process of determining whether a piece of writing is positive, negative, or neutral. The below Algorithm is designed for use in Financial Texts. It consists
